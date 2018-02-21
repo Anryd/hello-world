@@ -60,6 +60,12 @@ namespace Pragueparking
             return false;
         }
 
+        public int Move(string regno, int spotTo)
+        {
+
+            return 1;
+        }
+
         public string Content()
         {
             StringBuilder sb = new StringBuilder();

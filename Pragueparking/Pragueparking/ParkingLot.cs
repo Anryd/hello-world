@@ -48,8 +48,6 @@ namespace Pragueparking
             return -1;
         }
 
-
-
         public int Remove(string reg)
         {
             int plats;
@@ -60,6 +58,7 @@ namespace Pragueparking
             }
             return plats + 1;
         }
+
         public int Search(string reg)
         {
             for (int i = 0; i < 100; i++)
@@ -71,8 +70,14 @@ namespace Pragueparking
             }
             return -1;
         }
+
         public void Move(string regno, int slot)
         {
+            int i = Search(regno);
+            if (i > -1)
+            {
+
+            }
         }
         public string Content()
         {
