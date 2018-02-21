@@ -20,3 +20,14 @@ C:\Users\Elev1\Documents\Visual Studio 2017\Projects\PraugeParking2\Pragueparkin
 C:\Users\Elev1\Documents\Visual Studio 2017\Projects\PraugeParking2\Pragueparking\Pragueparking\obj\Debug\netcoreapp2.0\Pragueparking.AssemblyInfo.cs
 C:\Users\Elev1\Documents\Visual Studio 2017\Projects\PraugeParking2\Pragueparking\Pragueparking\obj\Debug\netcoreapp2.0\Pragueparking.dll
 C:\Users\Elev1\Documents\Visual Studio 2017\Projects\PraugeParking2\Pragueparking\Pragueparking\obj\Debug\netcoreapp2.0\Pragueparking.pdb
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\bin\Debug\netcoreapp2.0\Pragueparking.deps.json
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\bin\Debug\netcoreapp2.0\Pragueparking.runtimeconfig.json
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\bin\Debug\netcoreapp2.0\Pragueparking.runtimeconfig.dev.json
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\bin\Debug\netcoreapp2.0\Pragueparking.dll
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\bin\Debug\netcoreapp2.0\Pragueparking.pdb
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\obj\Debug\netcoreapp2.0\Pragueparking.csprojResolveAssemblyReference.cache
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\obj\Debug\netcoreapp2.0\Pragueparking.csproj.CoreCompileInputs.cache
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\obj\Debug\netcoreapp2.0\Pragueparking.AssemblyInfoInputs.cache
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\obj\Debug\netcoreapp2.0\Pragueparking.AssemblyInfo.cs
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\obj\Debug\netcoreapp2.0\Pragueparking.dll
+C:\Users\Elev1\Source\Repos\hello-world\Pragueparking\Pragueparking\obj\Debug\netcoreapp2.0\Pragueparking.pdb
