@@ -48,6 +48,7 @@ namespace Pragueparking
 
             return tmp;
         }
+
         public bool Search(string regNr)
         {
             foreach (Vehicle aVehicle in vehicles)
@@ -60,12 +61,7 @@ namespace Pragueparking
             return false;
         }
 
-        public int Move(string regno, int spotTo)
-        {
-
-            return 1;
-        }
-
+      
         public string Content()
         {
             StringBuilder sb = new StringBuilder();

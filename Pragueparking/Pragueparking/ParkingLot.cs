@@ -22,17 +22,12 @@ namespace Pragueparking
         public int Add(Vehicle vehicle)
         {
             if (freeSizeUnits < vehicle.Size) return -1;
+            if (Search(vehicle.Regno) > -1) return -1;
 
             for (int i = 0; i < parkingSlots.Length; i++)
             {
-                Add(vehicle, i);
-                return i;
-                //if (parkingSlots[i].FreeSize >= vehicle.Size)
-                //{
-                //    parkingSlots[i].Add(vehicle);
-                //    freeSizeUnits -= vehicle.Size;
-                //    return i;
-                //}
+                int to = Add(vehicle, i);
+                if (to > -1)  return to;
             }
             return -1;
         }
@@ -52,11 +47,11 @@ namespace Pragueparking
         {
             int plats;
             plats = Search(reg);
-            if (plats > 0)
+            if (plats >= 0)
             {
                 parkingSlots[plats].Remove(reg);
             }
-            return plats + 1;
+            return plats;
         }
 
         public int Search(string reg)
@@ -71,14 +66,28 @@ namespace Pragueparking
             return -1;
         }
 
-        public void Move(string regno, int slot)
+        public bool Move(string regno, int slot)
         {
-            int i = Search(regno);
-            if (i > -1)
+            int from = Search(regno);
+            if (from > -1)
             {
+                Vehicle v = parkingSlots[from].Remove(regno);
+                if (v == null) return false;
+                else
+                {
+                    int to = Add(v, slot);
+                    if (to == -1)
+                    {
+                        to = Add(v, from);
+                        return false; 
+                    }
+                    return true;
+                }
 
             }
+            return false;
         }
+
         public string Content()
         {
             StringBuilder sb = new StringBuilder();
